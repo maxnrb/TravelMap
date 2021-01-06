@@ -7,7 +7,7 @@ By exercising the Licensed Rights (defined below), You accept and agree to be bo
 ## Section 1 – Definitions
 
 1. Adapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.
-2. Copyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(1)(1)-(2) are not Copyright and Similar Rights.
+2. Copyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(1)(i)-(ii) are not Copyright and Similar Rights.
 3. Effective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.
 4. Exceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.
 5. Licensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.
@@ -26,11 +26,11 @@ By exercising the Licensed Rights (defined below), You accept and agree to be bo
 		2. produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only.
 	2. Exceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.
 	3. Term. The term of this Public License is specified in Section 6(1).
-	4. Media and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(1)(4) never produces Adapted Material.
+	4. Media and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(1)(iv) never produces Adapted Material.
 	5. Downstream recipients.
 		1. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.
 		2. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.
-	6. No endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(1)(1)(1)().
+	6. No endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(1)(i)(a)(a).
 
 1. Other rights.
 	1. Moral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.
@@ -54,14 +54,14 @@ Your exercise of the Licensed Rights is expressly made subject to the following 
       
       For the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.
 
-	2. You may satisfy the conditions in Section 3(1)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.
-	3. If requested by the Licensor, You must remove any of the information required by Section 3(1)(1)(1) to the extent reasonably practicable.
+	2. You may satisfy the conditions in Section 3(1)(i) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.
+	3. If requested by the Licensor, You must remove any of the information required by Section 3(1)(i)(a) to the extent reasonably practicable.
 
 ## Section 4 – Sui Generis Database Rights
 
 Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:
 
-1. For the avoidance of doubt, Section 2(1)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for Non-Commercial purposes only and provided You do not Share Adapted Material;
+1. For the avoidance of doubt, Section 2(1)(i) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database for Non-Commercial purposes only and provided You do not Share Adapted Material;
 2. If You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material;
 3. You must comply with the conditions in Section 3(1) if You Share all or a substantial portion of the contents of the database.
 
