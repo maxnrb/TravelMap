@@ -1,4 +1,21 @@
 # TravelMap
+
+## Screenshots
+<img align="left" width= "250" alt="Screenshot 1" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946144.png">
+
+<img align="right" width= "250" alt="Screenshot 3" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946240.png">
+
+<p align="center">
+  <img width="250" alt="Screenshot 2" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946183.png">
+</p>
+<img align="left" width= "250" alt="Screenshot 4" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946303.png">
+
+<img align="right" width= "250" alt="Screenshot 6" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946597.png">
+
+<p align="center">
+  <img width="250" alt="Screenshot 5" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946348.png">
+</p>
+
 ## Installation
 Firebase:
 1. Create a new projet in [Firebase Console](https://console.firebase.google.com/u/0/)
