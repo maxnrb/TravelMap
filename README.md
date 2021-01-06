@@ -1,5 +1,17 @@
 # TravelMap
 
+## Presentation
+TravelMap is an application designed to clearly and centrally list all the fountains, but also the bins and toilets available in any city. While having reliable and up-to-date information.
+
+The application will also serve to simplify the work of municipal services, by allowing them to visualise the different points in a city and the problems associated with them.
+
+## Main features
+* Real-time interactive maps with fountains, toilets and bins
+* Possibility to add new points on the map by users
+* User votes: confirmation or set as not found for each point
+* Report problems (non-functional or poorly maintained point)
+* Management of points and problems for municipal officers
+
 ## Screenshots
 <img align="left" width= "250" alt="Screenshot 1" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/Screenshot_1609946144.png">
 
