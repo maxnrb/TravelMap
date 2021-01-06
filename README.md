@@ -1,6 +1,4 @@
 # TravelMap
-
-## Presentation
 TravelMap is an application designed to clearly and centrally list all the fountains, but also the bins and toilets available in any city. While having reliable and up-to-date information.
 
 The application will also serve to simplify the work of municipal services, by allowing them to visualise the different points in a city and the problems associated with them.
