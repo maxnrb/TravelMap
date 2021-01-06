@@ -20,3 +20,11 @@ Android Maps SDK:
 
 ## Author
 [maximenrb](https://github.com/maximenrb)
+
+## License
+
+<img align="left" width= "150" alt="CC Attribution-NonCommercial-NoDerivatives 4.0 International Public License Logo" src="https://raw.githubusercontent.com/maximenrb/TravelMap/master/screenshots/by-nc-nd.eu.png">
+
+This project is licensed under the CC Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+
+See the [LICENSE.md](https://github.com/maximenrb/TravelMap/blob/master/LICENSE.md) file for details
