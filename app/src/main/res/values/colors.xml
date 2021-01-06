@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1D265F</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="fabPositionBackground">#FFFFFF</color>
+    <color name="colorDivider">#1F000000</color>
+</resources>

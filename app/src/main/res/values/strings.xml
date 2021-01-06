@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Travel Map</string>
+    <string name="title_activity_maps">Travel Map</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">L\'accèes à la localisation est requis pour vous situer sur la carte et pour ajouter de nouveaux points.</string>
+    <string name="location_permission_denied">Vous pouvez utiliser l\'application sans autoriser la localisation, cependant certaines fonctionnalités seront manquantes.
+        \nSi l\'autorisation a été définitivement refusée, elle peut être activée à partir des Paramètres Système > Applications > Travel Map > Autorisations</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="position_fab_str">position fab</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="test_str">Test</string>
+    <string name="item_manager_str">Gestionnaire</string>
+    <string name="item_water_tap_str">Point d\'eau</string>
+    <string name="item_toilette_str">Toilette</string>
+    <string name="item_bin_str">Poubelle</string>
+    <string name="menu_title">Eléments à afficher :</string>
+    <string name="icon_description_str">Icon description</string>
+    <string name="recycler_item_first_line_str">First line</string>
+    <string name="recycler_item_meta_str">meta</string>
+    <string name="recycler_item_second_line_str">Second Line</string>
+    <string name="header_name_str">Connexion / Inscription</string>
+    <string name="header_email_str">Cliquez ici</string>
+    <string name="snack_disconnect_str">Vous avez été déconnecté</string>
+
+    <string name="add_point_form_name_str">Nom*</string>
+    <string name="add_point_form_category_str">Catégorie*</string>
+    <string name="add_point_form_location_str">Coordonnées GPS*</string>
+    <string name="add_point_form_cancel_btn_str">Annuler</string>
+    <string name="add_point_form_send_btn_str">Envoyer</string>
+    <string name="add_point_category_error_str">Veuillez choisir une catégorie</string>
+    <string name="add_point_city_determine_error_str">Impossible de déterminer la ville. Veuillez réessayer</string>
+    <string name="add_point_success_add_str">Ajouté avec succès</string>
+    <string name="add_point_picture_textView_str">Prendre une photo ou choisir dans l\'appareil</string>
+    <string name="add_point_picture_icon_imageView_desc_str">Icone ajouter une photo</string>
+    <string name="add_point_picture_imageView_desc_str">Photo ajouté par l\'utilisateur</string>
+
+    <string name="need_account_dialog_title_str">Action nécessitant un compte</string>
+    <string name="need_account_dialog_message_str">Veuillez vous connecter ou créer un compte afin d\'ajouter des éléments sur la carte</string>
+    <string name="need_account_dialog_negativeButton_str">Fermer</string>
+    <string name="need_account_dialog_positiveButton_str">Connexion</string>
+
+    <string name="no_connection_header_title_str">Connexion / Inscription</string>
+    <string name="no_connection_header_subtitle_str">Cliquez ici</string>
+
+    <string name="manager_city_selector_str">Ville</string>
+
+    <string name="bottom_sheet_add_picture_str">Ajouter une photo</string>
+    <string name="bottom_sheet_apn_desc_str">Ajouter via l\'appareil photo</string>
+    <string name="bottom_sheet_apn_str">Appareil Photo</string>
+    <string name="bottom_sheet_gallery_desc_str">Ajouter via la galerie</string>
+    <string name="bottom_sheet_gallery_str">Galerie</string>
+
+    <string name="access_profile_hint_str">Accéder au profil</string>
+    <string name="profile_picture_nav_header_desc_str">Photo de profile</string>
+    <string name="toast_not_connect_str">Vous n\'êtes pas connecté</string>
+
+    <string name="delete_account_dialog_negative_btn">Annuler</string>
+    <string name="delete_account_dialog_positive_btn">Supprimer</string>
+    <string name="delete_account_dialog_title">Saisisez votre mot de passe pour confirmer :</string>
+    <string name="delete_account_dialog_layout_hint_str">Mot de passe</string>
+
+    <string name="toast_account_success_delete_str">Votre compte a été supprimé</string>
+    <string name="top_app_bar_send_btn_desc_str">Send button</string>
+    <string name="top_app_bar_send_btn_title_str">Send button</string>
+    <string name="bottom_sheet_point_icon_desc_str">Bottom sheet point icon</string>
+    <string name="no_user_found_str">Aucun utilisateur trouvé</string>
+    <string name="poi_detail_indicator_icon_desc_str">Approval icon</string>
+    <string name="point_detail_confirm_str">CONFIRMER</string>
+    <string name="point_detail_not_found_icon_desc_str">Invalidate icon</string>
+    <string name="point_detail_not_found_str">INTROUVABLE</string>
+    <string name="point_detail_validate_icon_desc_str">Validate point icon</string>
+    <string name="point_detail_report_desc_str">Report problem point icon</string>
+    <string name="point_detail_report_str">PROBLÈME</string>
+    <string name="point_detail_location_icon_desc_str">Location icon</string>
+    <string name="point_detail_last_validation_desc_str">Last validation icon</string>
+    <string name="point_detail_add_date_desc_str">Add date icon</string>
+    <string name="point_detail_approved_by_nb_str">Approuvée par X utilisateurs</string>
+    <string name="point_detail_add_date_str">Ajouté par un utilisateur il y a 2 mois</string>
+    <string name="point_detail_validate_date_str">Validé le 01/11/2020 à 14h35</string>
+    <string name="point_detail_direction_icon_desc_str">Direction icon</string>
+    <string name="point_detail_name_str">Nom du point</string>
+    <string name="point_detail_location_str">Localisation</string>
+    <string name="point_detail_image_desc_str">Point image</string>
+    <string name="manage_city_nav_menu_str">Gestion Ville</string>
+    <string name="manage_user_nav_menu_str">Gestion Utilisateur</string>
+    <string name="bottom_sheet_up_arrow_desc_str">Up bottom sheet icon</string>
+    <string name="bottom_sheet_direction_icon_desc_str">Direction icon</string>
+    <string name="bottom_sheet_point_name_str">Nom du point</string>
+    <string name="bottom_sheet_confirm_nb_str">Confirmé par X utilisateurs</string>
+    <string name="user_manager_search_by_email_str">Rechercher par email</string>
+    <string name="user_manager_search_btn_str">Rechercher</string>
+    <string name="user_manage_right_level_text_view_hint_str">Niveau de droit</string>
+    <string name="user_profile_name_str">Prénom NOM</string>
+    <string name="user_profile_email_str">monemail@gmail.com</string>
+    <string name="uer_profile_disconnect_btn_str">Déconnexion</string>
+    <string name="user_profile_delete_account_btn_str">Supprimer mon compte</string>
+    <string name="price_free_str">Prix : Gratuit</string>
+    <string name="no_vote_str">Aucun vote n\'a été soumis</string>
+    <string name="check_icon_city_recycler_item">Check icon</string>
+    <string name="i_am_storekeeper_str">Je suis commerçant, et je suis prêt à mettre ce point à disposition publiquement</string>
+    <string name="default_price_editText_str">0.00</string>
+    <string name="add_point_price_hint_str">Prix</string>
+    <string name="manager_user_city_selection_textView_str">Sélection des villes :</string>
+    <string name="dialog_delete_point_str">Supprimer l\'élément</string>
+    <string name="dialog_disable_point_str">Désactiver temporairement</string>
+    <string name="dialog_info_point_str">Voir la fiche d\'information</string>
+    <string name="dialog_see_problem_point_str">Gérer les problèmes signalés</string>
+    <string name="radio_button_point_not_working_str">Non fonctionnel</string>
+    <string name="radio_button_point_bad_maintenance_str">Mauvais entretien</string>
+    <string name="add_point_name_error_str">Veuillez indiquer un nom</string>
+
+</resources>

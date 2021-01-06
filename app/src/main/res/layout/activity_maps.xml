@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/home_drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/Layout_AppBar_Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/activity_main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:titleTextColor="@color/fabPositionBackground"
+                app:itemIconTint="@color/fabPositionBackground"
+                />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingTop="?attr/actionBarSize">
+
+            <fragment
+                android:id="@+id/map"
+                tools:context=".MapsActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="86dp"
+
+            app:layout_anchor="@id/fabAdd"
+            app:layout_anchorGravity="right|top"
+            android:layout_gravity="top"
+
+            android:contentDescription="@string/position_fab_str"
+            app:backgroundTint="@color/fabPositionBackground"
+            app:tint="@color/colorPrimary"
+            android:src="@drawable/ic_gps"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+
+            android:contentDescription="@string/position_fab_str"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="@color/colorPrimary"
+            app:tint="@color/fabPositionBackground" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/point_detail_bottom_sheet_view"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_insetEdge="bottom"
+            android:background="@drawable/bottom_sheet_background"
+
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+            app:behavior_peekHeight="0dp"
+            android:onClick="onBottomSheetClick">
+
+            <ImageView
+                android:id="@+id/bottom_sheet_up_arrow_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+
+                android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/bottom_sheet_up_arrow_desc_str" />
+
+            <ImageView
+                android:id="@+id/bottom_sheet_point_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="16dp"
+
+                android:contentDescription="@string/bottom_sheet_point_icon_desc_str"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bottom_sheet_up_arrow_imageView" />
+
+            <ImageView
+                android:id="@+id/bottom_sheet_direction_imageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="24dp"
+
+                android:src="@drawable/ic_baseline_directions_24"
+                app:tint="@color/colorPrimary"
+                android:onClick="directionBtnClick"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/bottom_sheet_direction_icon_desc_str" />
+
+            <TextView
+                android:id="@+id/bottom_sheet_point_name_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/bottom_sheet_point_name_str"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+
+                app:layout_constraintBottom_toBottomOf="@+id/bottom_sheet_point_icon"
+                app:layout_constraintEnd_toStartOf="@+id/bottom_sheet_direction_imageView"
+                app:layout_constraintStart_toEndOf="@id/bottom_sheet_point_icon"
+                app:layout_constraintTop_toTopOf="@+id/bottom_sheet_point_icon" />
+
+            <TextView
+                android:id="@+id/bottom_sheet_point_desc_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+
+                android:text="@string/bottom_sheet_confirm_nb_str"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/bottom_sheet_direction_imageView"
+                app:layout_constraintTop_toBottomOf="@id/bottom_sheet_point_name_textView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/home_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/lateral_navigation_menu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

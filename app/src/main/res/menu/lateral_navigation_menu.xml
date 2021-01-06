@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_city_manager"
+            android:icon="@drawable/ic_baseline_location_city_24"
+            android:title="@string/manage_city_nav_menu_str"
+            android:checkable="false"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/menu_item_user_manager"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="@string/manage_user_nav_menu_str"
+            android:checkable="false"
+            android:visible="false"
+            />
+    </group>
+
+    <item android:title="@string/menu_title">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item_water_tap"
+                    android:icon="@drawable/ic_faucet"
+                    android:title="@string/item_water_tap_str"
+                    android:checkable="false"
+                    />
+
+                <item
+                    android:id="@+id/menu_item_toilette"
+                    android:icon="@drawable/ic_wc"
+                    android:title="@string/item_toilette_str"
+                    android:checkable="false"
+                    />
+
+                <item
+                    android:id="@+id/menu_item_bin"
+                    android:icon="@drawable/ic_trash"
+                    android:title="@string/item_bin_str"
+                    android:checkable="false"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
