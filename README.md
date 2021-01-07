@@ -30,12 +30,12 @@ The application will also serve to simplify the work of municipal services, by a
 Firebase:
 1. Create a new projet in [Firebase Console](https://console.firebase.google.com/u/0/)
 2. Add Firebase to the android app, with package name "*fr.maximenarbaud.travelmap*" ([See documentation](https://firebase.google.com/docs/android/setup?authuser=0))
-3. Download "*google-services.json*" file and put in *app/* folder
+3. Download "*google-services.json*" file and put in `app/` folder
 4. Activate Authentification, Cloud Firestore and Cloud Storage services
 
 Android Maps SDK:
 1. Create a new Google Maps Platerform project, activate Maps SDK for Android and get your API key ([See documentation](https://developers.google.com/maps/gmp-get-started))
-2. Put your API key in `app/src/main/res/values/google_maps_api.xml`, and in  *app/src/release/res/values/google_maps_api.xml* for release 
+2. Put your API key in `app/src/main/res/values/google_maps_api.xml`, and in  `app/src/release/res/values/google_maps_api.xml` for release 
 
 ## Build With
 [Google Firebase](https://firebase.google.com/):
