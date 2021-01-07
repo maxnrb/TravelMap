@@ -35,7 +35,7 @@ Firebase:
 
 Android Maps SDK:
 1. Create a new Google Maps Platerform project, activate Maps SDK for Android and get your API key ([See documentation](https://developers.google.com/maps/gmp-get-started))
-2. Put your API key in *app/src/main/res/values/google_maps_api.xml*, and in  *app/src/release/res/values/google_maps_api.xml* for release 
+2. Put your API key in `app/src/main/res/values/google_maps_api.xml`, and in  *app/src/release/res/values/google_maps_api.xml* for release 
 
 ## Build With
 [Google Firebase](https://firebase.google.com/):
